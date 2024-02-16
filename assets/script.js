@@ -3,7 +3,7 @@ const numBtn = document.getElementById('num-btn');
 const numOutput = document.getElementById('num-output');
 
 function randomNumHandler() {
-    let num = Math.floor(Math.random() * 1000)
+    let num = Math.ceil(Math.random() * 12)
 
     numOutput.innerHTML = num
 }
