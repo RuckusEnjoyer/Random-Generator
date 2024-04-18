@@ -1,42 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="image/png" href="./assets/images/re.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Everything</title>
-    <link rel="shortcut icon" type="image/png" href=""/>
-    <link rel='stylesheet' href="./assets/style.css">
-</head>
-<body>
-    <header>
-        <h1>
-            Random Everything:
-        </h1>
-        <h2>
-            A random collection of random generators
-        </h2>
-    </header>
-    <div>
-        <section>
-            <h2>
-                Random Number Generator:
-            </h2>
-            <button id="num-btn">
-                Click Me
-            </button>
-            <p id="num-output"></p>
-        </section>
-        <section>
-            <h2>
-                Random Password Generator:
-            </h2>
-            <button id="pass-btn">
-                Click Me
-            </button>
-            <p id="pass-output"></p>
-        </section>
-    </div>
-    
-</body>
-<script src="./assets/script.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script src="./src/assets/script.js"></script>
+  </body>
 </html>
